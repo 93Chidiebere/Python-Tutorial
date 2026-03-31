@@ -67,10 +67,28 @@ actions = ['eats', 'sleeps', 'codes', 'teaches']
 #     for action in actions:
 #         print(name + " " + action +".")
 
-#9. -------------------------------------------------
-# whatever is outside (actions or names) is what happens and loops through what's inside
-for action in actions:
-    for name in names:
-        print(name + " " + action +".")
+# #9. -------------------------------------------------
+# # whatever is outside (actions or names) is what happens and loops through what's inside
+# for action in actions:
+#     for name in names:
+#         print(name + " " + action +".")
 
 
+def add_one(num):
+    i=num
+
+    while True:
+        print(i)
+
+        if i == 9:
+            print(i + 1)
+            break
+
+        i += 1
+
+add_one(2)
+
+
+
+
+        
